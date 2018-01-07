@@ -1,0 +1,84 @@
+/*后台导航条*/
+#nav{
+	width: auto;
+     padding-right: 50px; 
+    height: 80px;
+    position: relative;
+    z-index: 1000;
+    background-color: #07111b;
+    margin-bottom: 0;
+    border: none;
+    outline:none;
+    border-radius: 0;
+}
+.navbar-brand > img {
+    display: block;
+    height: 72px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    padding:15px 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #948a8a;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+}
+.glyphicon-off{
+	margin-right:5px;
+}
+/*背景*/
+#h_con {
+    padding-right: 0px; 
+    padding-left: 0px; 
+    margin:0 ;
+}
+/**/
+.nav-tabs > li {
+    float: none;
+    margin-bottom: -1px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    width: 150px;
+    float: left;
+}
+p {
+	height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: #7f8082;
+    border-bottom: 1px solid #d4d5d7;
+    margin: 30px 85px;
+    /* border-bottom: #ccc; */
+    /*border-bottom: 1px solid #ccc;*/
+}
+.nav > li > a > img {
+    /* max-width: none; */
+    width: 80px;
+    height: 80px;
+}
+nav-tabs > li .active > #hsdlogo,
+ .nav-tabs > li.active > #hsdlogo:hover, 
+ .nav-tabs > li.active > #hsdlogo:focus {
+    background-color: #fff;
+    border: none;
+    border-bottom-color: transparent;
+}
+#pre ul li i{
+	margin-right: 20px;
+	font-size: 20px;
+}
+.nav-tabs > li.active > a,
+ .nav-tabs > li.active > a:hover, 
+ .nav-tabs > li.active > a:focus {
+    color: #fff;
+    background: rgba(240,20,20,.8);
+    border-radius: 8px 0 0 8px;
+}
+.nav-tabs > li > a {
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #787d82;
+}
